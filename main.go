@@ -2,9 +2,10 @@ package main
 
 import (
 	"fmt"
-	say_hello "github.com/kaiharvest/hello-modules1"
+
+	say_hello_modules "github.com/kaiharvest/hello-modules1"
 )
 
 func main() {
-	fmt.Println()
+	fmt.Println(say_hello_modules.SayHello())
 }
